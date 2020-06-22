@@ -12,13 +12,26 @@
 --very-light-gray: hsl(0, 0%, 98%);
 
 }
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 0.938rem;
 
 }
-
+h1{
+    font-size: 1.2rem;
+}
+.title span{
+    font-weight: 200;
+}
 .attribution {
     font-size: 11px;
     text-align: center;
